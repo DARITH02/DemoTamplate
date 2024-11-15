@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: "Hanuman", serif;
+    font-weight:normal;
+
+}
+
+/*@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}*/
+.txt-menu-bar{
+    font-size:16px;
+    font-weight:bold;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+
+
+*{
+    margin:0;padding:0;
+    box-sizing:border-box;
+}
+body {
+  margin:0;
+  padding:0;
+} 
+a,ul{
+      list-style-type:none;
+      text-decoration:none;
+      margin:0;
+      padding:0;
+  }
+a{
+    color:black;
+}
+.btn-nav-hover{
+    color:white;
+}
+.btn-nav-hover:hover {
+     color: #800000;
+
+}
+.bg-img {
+ background-image: url('../pic/slid/10.jpg');
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:cover;
+ background-attachment:fixed;
+}
+.bg-img-phone {
+    background-image: url('https://i.pinimg.com/originals/54/d6/98/54d69893abec2dddfafca7a163e323c0.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-img-footer {
+    background-image: url('https://i.pinimg.com/originals/22/a9/52/22a952145b87318bfe3f151c5f8acb6f.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-img-about {
+    background-image: url('https://i.pinimg.com/736x/6f/ad/4c/6fad4c46c41be805c7fd3e95db641a86.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-img-footer-about {
+    background-image: url('https://i.pinimg.com/736x/db/eb/c7/dbebc7682b28d6da54500b52e364c1d4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-img-contact {
+    background-image: url('https://i.pinimg.com/736x/f2/45/7c/f2457c3faa6d3e3dd09e415eb359b0a6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.show-detial {
+}
+.btn-detial{
+    display:none;
+
+}
+.show-detial:hover>.btn-detial{
+    display:block;
+
+    transition:ease-in-out;
+}
+.bg-img-about     {
+
+}
